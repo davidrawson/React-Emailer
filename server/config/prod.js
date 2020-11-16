@@ -6,3 +6,6 @@ module.exports = {
   mongoURI: process.env.MONGO_URI,
   cookieKey: process.env.COOKIE_KEY
 }
+
+// Arsed it and deleted the prod db cluster. New connection credentials for Heroku.
+// mongodb+srv://davidrawson:<password>@emaily-prod.i81nr.mongodb.net/<dbname>?retryWrites=true&w=majority
