@@ -12,3 +12,6 @@ if (process.env.NODE_ENV === "production") {
 //   mongoURI: 'mongodb+srv://davidrawson:bu5yunkn0wn@emaily.n5slt.mongodb.net/emaily?retryWrites=true&w=majority',
 //   cookieKey: 'gr478wsjsdfsdfsegghgh'
 // }
+
+// Sendgrid api key
+// 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
