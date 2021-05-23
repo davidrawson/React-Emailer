@@ -10,6 +10,3 @@ module.exports = {
   sendGridKey: process.env.SEND_GRID_KEY,
   redirectDomain: process.env.REDIRECT_DOMAIN,
 };
-
-// Arsed it and deleted the prod db cluster. New connection credentials for Heroku.
-// mongodb+srv://davidrawson:<password>@emaily-prod.i81nr.mongodb.net/<dbname>?retryWrites=true&w=majority
