@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default [
   {
     label: "Survey Title",
@@ -16,7 +17,7 @@ export default [
   },
   {
     label: "Recipient List",
-    name: "emails",
+    name: "recipients",
     noValueError: "You must provide recipients.",
   },
 ];

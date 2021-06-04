@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { reduxForm } from "redux-form";
 import SurveyForm from "./SurveyForm";
 import SurveyFormReview from "./SurveyFormReview";
 
@@ -24,4 +25,8 @@ class SurveyNew extends Component {
   }
 }
 
-export default SurveyNew;
+// the destroyOnUnmount : true isn't needed (it's the default action) but is included to show what is happening
+export default reduxForm({
+  form: "surveyForm",
+  destroyOnUnmount: true,
+})(SurveyNew);
