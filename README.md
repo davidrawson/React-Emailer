@@ -5,6 +5,7 @@
 ### This app utilises:
 
 - Google OAuth
+- Redux
 - Stripe online payments
 - SendGrid emailling service
 
