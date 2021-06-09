@@ -5,11 +5,12 @@
 ### This app utilises:
 
 - Google OAuth
-- Redux
+- Redux / ReduxForm
+- Express
 - Stripe online payments
 - SendGrid emailling service
 
-The user can log in, purchase Emaily credits, compose surveys, email to multiple recipients, and display the results.
+The user can log in, purchase Emaily credits, compose surveys, email to multiple recipients, and display the surveys results.
 
 This app was created as part of Stephen Grider's **Node With React: Fullstack Web Development** course.
 
